@@ -1,0 +1,27 @@
+body{
+    background-color: #f0ead6;
+}
+
+.square_div{
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 6px rgb(116, 114, 114);
+}
+
+.square_div img{
+    width: auto;
+    height: 100%;
+    margin: 0 auto 0 -120px;
+}
+
+.work_table tr, .work_table th, .work_table td{
+    border: 4px double black;
+}
+
+.skills_table tr, .skills_table th, .skills_table td{
+    border: 4px double black;
+}
